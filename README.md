@@ -1,18 +1,23 @@
-# prodev-mobile-setup
-Setup and practice projects for Mobile Development with React Native, TypeScript, and Expo.
+# ProDev Mobile Project
 
----
+This repository contains the setup and source code for the ProDev mobile application, built with **React Native** and **Expo**.  
 
-# 📱 Task 1 — Create Your First Mobile App
+## Project Structure
 
-## Objective
-The goal of this task was to set up and run the first mobile application using the **Expo Router template**, understand the file structure, and test the environment setup using the **Expo Go** mobile app.
+- `mobile-development-setup/` – Guides and scripts for setting up the development environment.
+- `prodev-mobile-app-0x00/` – Main React Native application source code.
+- `.gitignore` – Files and folders excluded from version control.
+- `README.md` – Documentation for the repository.
 
----
+## Getting Started
 
-## Steps I Followed
+1. Follow the instructions in `mobile-development-setup/README.md` to set up your environment.
+2. Navigate to `prodev-mobile-app-0x00/` to run or develop the app.
+3. For troubleshooting and common tasks, refer to each subfolder’s README.
 
-### 1️⃣ Navigate to Project Directory
-I opened my terminal and moved into the parent project folder:
-```bash
-cd prodev-mobile-setup
+## Prerequisites
+
+- Windows 10 / macOS / Linux
+- Node.js (LTS recommended)
+- VS Code (or any code editor)
+- Expo Go App on a physical device (optional)
