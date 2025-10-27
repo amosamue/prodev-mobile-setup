@@ -10,7 +10,7 @@ export default function Index() {
         {/* Navigation / Logo */}
         <View style={styles.navGroup}>
           <Ionicons name="arrow-back" size={25} />
-          <Image source={require('../assets/images/logo.png')} />
+          <Image source={require('@/assets/images/logo.png')} />
         </View>
 
         {/* Title */}
@@ -54,14 +54,14 @@ export default function Index() {
         <View style={styles.socialMediaButtonGroup}>
           <TouchableOpacity style={styles.socialMediaButton}>
             <View style={{ flexDirection: "row", alignItems: "center", gap: 5 }}>
-              <Image source={require("../assets/images/google.png")} />
+              <Image source={require('@/assets/images/google.png')} />
               <Text style={styles.socialMediaButtonText}>Continue with Google</Text>
             </View>
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.socialMediaButton}>
             <View style={{ flexDirection: "row", alignItems: "center", gap: 5 }}>
-              <Image source={require("../assets/images/facebook.png")} />
+              <Image source={require('@/assets/images/facebook.png')} />
               <Text style={styles.socialMediaButtonText}>Continue with Facebook</Text>
             </View>
           </TouchableOpacity>
